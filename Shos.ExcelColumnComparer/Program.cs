@@ -1,4 +1,6 @@
-﻿using System;
+﻿#nullable enable
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -45,8 +47,6 @@ namespace Shos.ExcelTextReplacer
 
     static class Program
     {
-        //const int maxRow = 100;
-
         static bool FullRowEnabled { get; set; } = false;
 
         static void Main(string[] args)
@@ -62,8 +62,8 @@ namespace Shos.ExcelTextReplacer
         static (string targetExcelFilePath, int column1, int column2)? GetParameters(string[] args)
         {
             string? targetFilePath = null;
-            int? column1 = null;
-            int? column2 = null;
+            int?    column1        = null;
+            int?    column2        = null;
             for (var index = 0; index < args.Length; index++) {
                 switch (args[index]) {
                     case "-i": case "-I": case "/i": case "/I":

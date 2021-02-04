@@ -4,12 +4,12 @@ using System.Runtime.InteropServices;
 // アセンブリに関する一般情報は以下の属性セットをとおして制御されます。
 // 制御されます。アセンブリに関連付けられている情報を変更するには、
 // これらの属性値を変更します。
-[assembly: AssemblyTitle("Shos.ExcelTextReplacer")]
+[assembly: AssemblyTitle("Shos.ExcelColumnComparer")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Sho's Software")]
-[assembly: AssemblyProduct("Shos.ExcelTextReplacer")]
-[assembly: AssemblyCopyright("Copyright © 2017-2020 Fujio Kojima")]
+[assembly: AssemblyProduct("Shos.ExcelColumnComparer")]
+[assembly: AssemblyCopyright("Copyright © 2021 Fujio Kojima")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
